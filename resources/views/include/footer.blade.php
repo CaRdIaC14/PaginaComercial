@@ -1,13 +1,13 @@
 <div class="footer">
     <div class="redes-sociales">
-        <img src="logo-redes-sociales.png"/><a href="#" class="enlace"><p>ingeco.uda</p></a>
-        <img src="logo-redes-sociales.png"/><a href="#" class="enlace"><p>Departamento de Ingeniería Comercial UDA</p></a>
+      <a href="#" class="enlace"><p style="font-size: 20px">ingeco.uda</p><img src="{{asset('img/logosfooter/instagram.png')}}"></a>
+      <a href="#" class="enlace"><p style="font-size: 20px">Departamento de Ingeniería Comercial UDA</p><img src="{{asset('img/logosfooter/linkedin.png')}}"></a>
       </div>
 
       <div class="contacto">
-        <img src="logo-direccion.png"/><p>Copiapó, Av. Copayapu 485</p>
-        <img src="logo-telefono.png"/><p>52 2 255578</p>52 2 255578
-        <img src="logo-correo.png"/><p>ingenieria.comercial@uda.cl</p>
+        <img src="{{asset('img/logosfooter/mapa.png')}}"/><p style="font-size: 20px">Copiapó, Av. Copayapu 485</p>
+        <img src="{{asset('img/logosfooter/llamada.png')}}"/><p style="font-size: 20px">52 2 255578</p>
+        <img src="{{asset('img/logosfooter/correo-electronico.png')}}"/><p style="font-size: 20px">ingenieria.comercial@uda.cl</p>
       </div>
     </div>
 </div>
