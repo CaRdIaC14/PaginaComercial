@@ -47,15 +47,10 @@ echo '<script src="../js/malla.js"></script>';
                             <p>El Ingeniero Civil en Computación e Informática se puede desarrollar profesionalmente en todos los sectores empresariales, tales como: Industria, Comercio, Gobierno, Salud y en donde se requiera de tecnología para la gestión de la administración y automatización de operaciones.</p>
                             <figure>
                                 <h3>Ponderaciones:</h3>
-                                <img src=<?php echo fromroot($file, "img/blog/tabla-diicc-1.png"); ?>>
                             </figure>
                             <br>
                             <h3>Malla Curricular. (Sujeto a posibles Cambios)</h3>
                             <button type="button" id="malla-modal-btn" class="btn btn-outline-danger me-2" data-toggle="modal" data-target="#malla-modal">Malla Curricular. (Sujeto a posibles Cambios)</button>
-                            <br>
-                            <a href=<?php echo fromroot($file, "img/blog/Malla-Ing.-Civil-Comp-e-Inf.pdf"); ?>>Descargar malla hasta el 2017 </href></a>
-                            <br>
-                            <a href=<?php echo fromroot($file, "img/blog/Malla-INFORMATICA.pdf"); ?>>Descargar malla desde el 2018 </href></a>
 
                         </div>
 
@@ -67,11 +62,6 @@ echo '<script src="../js/malla.js"></script>';
                         <!-- <div class="single-blog-widget mb-47">
                                 imagen
                             </div> -->
-                        <div class="single-blog-widget mb-47">
-                            <div class="single-blog-banner">
-                                <a href="https://admision.uda.cl/index.php/ingenieria-civil-en-computacion-e-informatica/" id="blog"><img src=<?php echo fromroot($file, "img/blog/blogImg1.JPG"); ?> alt="blog"></a>
-                            </div>
-                        </div>
 
 
 
@@ -95,9 +85,6 @@ echo '<script src="../js/malla.js"></script>';
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
-                <div class="modal-body">
-                    <?php include_once fromroot($file, "include/mallas/2018.php", true); ?>
                 </div>
             </div>
         </div>

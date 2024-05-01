@@ -45,7 +45,7 @@
                                         <ul>
                                             <li><a>Pregrado</a>
                                                 <ul>
-                                                    <li><a href="{{ route('Ingenieria-Civil') }}">Ingeniería civil en Computación e Informática</a></li>
+                                                    <li><a href="{{ route('Ingenieria-Civil') }}">Ingeniería Comercial</a></li>
                                                 </ul>
                                             </li>
                                             <li><a>Postítulo</a>
