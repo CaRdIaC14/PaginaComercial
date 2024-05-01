@@ -2553,9 +2553,9 @@ textarea {
   }
 
   .linea-horizontal {
-    border-bottom: 4px solid #FF914D; /* Ancho y color de la línea */
-    width: 80%; /* Ancho de la línea */
-    margin: 20px auto; /* Espacio vertical y centrado horizontal */
+    border-bottom: 4px solid #FF914D; 
+    width: 80%; 
+    margin: 20px auto; 
   }
 
 .contenedor {
@@ -2563,45 +2563,45 @@ textarea {
     height: 50vh;
     background-color: #F1F1F1;
     display: flex;
-    flex-direction: column; /* Para que los elementos se apilen verticalmente */
-    justify-content: flex-start; /* Para alinear los elementos al principio del contenedor */
+    flex-direction: column; 
+    justify-content: flex-start; 
     align-items: center;
     color: white;
     padding-top: 2cm;
   }
   .imagen-contenedor {
-    max-width: 80%; /* Tamaño máximo de la imagen */
-    margin-top: 20px; /* Espacio superior para separar la imagen del texto */
-    display: flex; /* Activar flexbox */
-    align-items: center; /* Alinear elementos verticalmente */
+    max-width: 80%; 
+    margin-top: 20px; 
+    display: flex;
+    align-items: center; 
   }
   .texto-contenedor {
-    margin-left: 20px; /* Espacio a la izquierda de la imagen */
-    text-decoration: none; /* Quita el subrayado del enlace */
-    font-size: 48px; /* Tamaño de la fuente del enlace */
+    margin-left: 20px;
+    text-decoration: none; 
+    font-size: 48px; 
   }
   .footer {
-    display: flex; /* Activar flexbox */
-    justify-content: space-between; /* Distribuir el espacio entre los elementos */
-    width: 80%; /* Ancho del footer */
-    margin-top: 20px; /* Espacio superior */
+    display: flex; 
+    justify-content: space-between; 
+    width: 80%; 
+    margin-top: 20px; 
   }
   .redes-sociales,
   .contacto {
-    display: flex; /* Activar flexbox */
-    flex-direction: column; /* Para que los elementos se apilen verticalmente */
-    align-items: flex-start; /* Alinear elementos horizontalmente al inicio */
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
   }
   .redes-sociales img,
   .contacto img {
-    max-width: 30px; /* Tamaño máximo de las imágenes */
-    margin-right: 10px; /* Espacio derecho de las imágenes */
+    max-width: 30px;
+    margin-right: 10px; 
   }
   .redes-sociales a,
   .contacto a {
     color: white;
-    text-decoration: none; /* Quita el subrayado del enlace */
-    margin-bottom: 5px; /* Espacio inferior entre los enlaces */
+    text-decoration: none; 
+    margin-bottom: 5px;
   }
 .footer-bottom{background: #364c59}
 .footer-bottom p {
