@@ -1,12 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="es">
-    @include("include.functions")
+    <!-- @include("include.functions") -->
     @include("include.head")
 <?php
-    session_start();
-    $_SESSION['root'] = dirname(__FILE__);
-    $file = __FILE__;
-    $pagetitle = "Departamento - DIICC UDA";
+    // session_start();
+    // $_SESSION['root'] = dirname(__FILE__);
+    // $file = __FILE__;
+    // $pagetitle = "Departamento - DIICC UDA";
 ?>
 
     
