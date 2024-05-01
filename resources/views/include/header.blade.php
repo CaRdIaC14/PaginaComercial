@@ -19,23 +19,16 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="header-area header-sticky fixed">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-16">
+                <div class="col-md-3 col-sm-4 col-xs-16">
                     <div class="logo">
                         <a href="https://uda.cl/" target="_blank">
                             <img id="imglogo" src="{{asset('img/logo/logodep.png')}}"/>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8 col-sm-10 col-xs-12">
-                    <div class="content-wrapper one">
-                        <!-- Main Menu Start -->
-                        <div class="main-menu one text-right">
+                <div class="col-md-9 col-sm-7 col-xs-7">
+                    <!-- Main Menu Start -->
+                <div class="main-menu">
                             <nav>
                                 <ul>
                                     <li><a href="{{ route('welcome') }}")>Inicio</a></li>
@@ -91,9 +84,27 @@
                         </div>
                         <div class="mobile-menu hidden-lg hidden-md one"></div>
                         <!-- MENU PRINCIPAL-->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- <div class="header-area header-sticky fixed">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-16">
+                    <div class="logo">
+                        <a href="https://uda.cl/" target="_blank">
+                            <img id="imglogo" src="{{asset('img/logo/logodep.png')}}"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-10 col-xs-12">
+                    <div class="content-wrapper one">
+                        
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </header>

@@ -578,7 +578,7 @@ textarea {
 .logo{
     max-width: 100%;
     max-height: 100%;
-    padding: 55px 0 23px;
+    /* padding: 55px 0 23px; */
     /*width: 60%;*/
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -641,7 +641,7 @@ textarea {
     color: #fff;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 84px;
     padding: 0 15px;
@@ -960,7 +960,7 @@ textarea {
 .search-menu {
     background: #364c59 none repeat scroll 0 0;
     border-radius: 50%;
-    color: #fff;
+    color: #ffffff;
     display: inline-block;
     height: 31px;
     position: relative;
@@ -983,12 +983,12 @@ textarea {
 }
 
 .header-top{
-    background: #364c59;
+    background: #1C2A44;
     position: relative;
 }
 .header-top:after{
-    background: #364c59;
-    position: absolute;
+    background: #1C2A44;
+    position: relative;
     right: 0;
     top: 0;
     content: "";
@@ -996,7 +996,7 @@ textarea {
     width: 36%;
 }
 .header-top::before {
-    background: #364c59 none repeat scroll 0 0;
+    background: #1C2A44 none repeat scroll 0 0;
     content: "";
     height: 105px;
     position: absolute;
@@ -1008,7 +1008,7 @@ textarea {
 }
 .header-top-right{position: relative}
 .header-top-right::after {
-  background: #364c59 none repeat scroll 0 0;
+  background: #1C2A44 none repeat scroll 0 0;
   content: "";
   height: 100px;
   left: -16%;
