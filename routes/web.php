@@ -10,7 +10,8 @@ Route::view('/', 'welcome')->name('welcome');
 Route::view('login', 'login')->name('login');
 Route::view('register', 'register')->name('register');
 
-Route::view('/Departamento', 'departamento')->name('Departamento');
+Route::view('/Historia', 'historia')->name('Historia');
+Route::view('/Carrera', 'carrera')->name('Carrera');
 Route::view('/Academicos', 'equipo/academicos')->name('academicos');
 Route::view('/Administrativos', 'equipo/funcionarios')->name('funcionarios');
 Route::view('/Ingenieria-Civil-en-Computacion-e-Informatica','Carrera/pregrado/Ingenieria-Civil')->name('Ingenieria-Civil');

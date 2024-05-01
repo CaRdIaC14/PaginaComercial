@@ -32,14 +32,11 @@
                             <nav>
                                 <ul>
                                     <li><a href="{{ route('welcome') }}")>Inicio</a></li>
-                                    <li><a href="{{ route('Departamento') }}">Departamento</a></li>
-                                    <li class="hidden-sm"><a href="academicos.php">Equipo</a>
-                                        <ul>
-                                            <li><a href="{{ route('academicos') }}">Académicos</a></li>
-                                            <li><a href="{{ route('funcionarios') }}">Administrativos</a></li>
-                                        </ul>
-                                    </li>
-                                   
+                                    <li><a href="{{ route('Historia') }}">Historia</a></li>
+                                    <li><a href="{{ route('Carrera') }}">Carrera</a></li>
+
+                
+            
                                     
                                     <li><a>Carrera</a>
                                         <ul>

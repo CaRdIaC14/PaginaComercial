@@ -16,25 +16,7 @@
     @include("include/header")
     <!-- Header Area End -->
 
-    <!-- Inicio del Banner -->
-    <div class="banner-area-wrapper">
-        <div class="banner-area text-center">
-            <!--Para cambiar la imagen del banner,ir a style.css,linea 172 y modificar la direccion de la imagen(1920x318)-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="banner-content-wrapper">
-
-                            <div class="banner-content">
-                                <h2>DEPARTAMENTO</h2> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  Fin del Banner -->
+    
     <!-- Inicio de Historia -->
     <div class="historia-area pt-25 pb-70">
         <div class="container">
@@ -103,10 +85,9 @@
                         <div id="valores-comercial" class="about-content text-center">
                             <h2>Valores</h2>
                         </div>
-                        <p>Ser referente a nivel regional y en la macro zona norte como formadores de profesionales calificados, de alta empleabilidad y
-                            valorados por él, mediante la utilización de procesos de enseñanza y aprendizaje que cumplan con elevados estándares de
-                            calidad y destacar en el ámbito de la investigación por el aporte a los propósitos institucionales
-                        </p>
+                        <div id="img_valores" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <img src="{{asset('img/logo/iconos-valores.png')}}"/>
+                        </div>
                     </div>
 
 
@@ -115,15 +96,15 @@
                 
                 <!--CARRUSEL-->
                 <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                         <div id="infra-diicc" class="about-content">
-                            <h2></h2>
+                            <h2>xd</h2>
 
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div id="infraestructura" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <div id="infraestructura" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-cencer">
                         <div id="infra-diicc" class="about-content">
                         </div>
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
