@@ -39,9 +39,9 @@
                                             <div class="col-md-7 col-md-offset-left-5">
                                                 <div class="slide-content-wrapper">
                                                     <div class="slide-content">
-                                                        <h3>DEPARTAMENTO DE INGENIERÍA </h3>
-                                                        <h2>INFORMÁTICA Y CIENCIAS DE LA COMPUTACIÓN</h2>
-                                                        <p>Universidad de Atacama, Copiapó, Atacama, Chile.</p>
+                                                        <h3>Departamento de </h3>
+                                                        <h2>Ingeniería Comercial</h2>
+                                                        <p>Universidad de Atacama</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -241,15 +241,7 @@
         
         <!-- Courses Area Start -->
 
-        <div class="courses-area pt-30 pb-40 text-center">
-            <div class="rowtrans">
-                    <div class="rowtrans-title">
-                        <h2 style = "padding: 20px">ÁREAS DE DESARROLLO</h2>
-                    </div>                
-            </div>
-        </div>
-
-            <div class="container">
+            <div class="container" style="margin-top: 3cm">
                 <div class="row" id = "card-row" style="margin-top: -50px; margin-bottom: 30px">
                     <div class="card" id= "card1">
                         <div class="flip-card-inner">
@@ -448,8 +440,15 @@
             </div>
         </div>
         <!-- Blog Area End -->
-        
 
+        <div class="contenedor-linea">
+            <div class="linea-horizontal"></div>
+          </div>
+        
+        <div class="contenedor">
+            <div class="imagen-contenedor">
+              <img src="tu-imagen.jpg"/><p style="font-size: 48px">Formulario de Prácticas</p>
+            </div>
 
         <!-- FOOTER -->
         @include("include.footer")
