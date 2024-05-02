@@ -46,6 +46,7 @@
 /*  1. Default CSS
 /*----------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');*/
 body {
 	color: #606060;
@@ -1446,17 +1447,34 @@ textarea {
         
 }
 .rowtrans-title h2{
-    font-size: 34px;
-    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    color: #1C2A44;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     margin-bottom: 62px;
     text-transform: uppercase;
-    background: linear-gradient(50deg, #031820,#254C5A,#3c5d69);
+    display: inline-block;
     position: relative;
     animation: trans 10s ease infinite;
         
 }
+.rowtrans-title h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Ajusta la posición vertical de la línea */
+    left: 50%; /* Centra la línea horizontalmente respecto al texto */
+    width: 600px; /* Anchura inicial de la línea */
+    margin-left: -300px; /* Desplazamiento inicial para centrar la línea */
+    height: 4px; /* Altura de la línea */
+    background-color: #FF914D; /* Color de la línea */
+  }
+
+.rowtrans img{
+    width: 1920px;
+    height: 900px;
+}
+
 @keyframes trans{
     0%{background-position: 0 50%;}
     50%{background-position: 100% 50%;}
@@ -3106,7 +3124,7 @@ textarea {
 }
 .login-toggle-btn {
     padding-top: 20px;
-}
+}FF914D
 .login-form-container input[type="checkbox"] {
     height: 15px;
     margin: 0;
@@ -3255,11 +3273,22 @@ textarea {
     overflow: hidden;
     transition: .5s;
     margin: 15px 20px;
+    text-align: center;
+    border: 2px solid #FF914D; 
+    padding-top: 5px;
+}
+.card a{
+    text-decoration: none;
+}
+.card h3{
+    font-weight: bold; 
+    color: #1C2A44;
 }
 
 .card:hover {
     box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
     transform: translateY(-15px);
+    text-decoration: none;
 }
 
 .card .head {
@@ -3304,18 +3333,6 @@ textarea {
     text-align: center;
 }
 
-.card .description h3 {
-    color: #364c59;
-}
-
-.card .description h4 {
-    color: #364c59;
-}
-
-.card .description p {
-    margin-top: 20px;
-    font-size: 15px;
-}
 
 
 .card .contact {
@@ -3563,7 +3580,4 @@ textarea {
     color: white;
 }
 
-
-
-
-
+.card1
