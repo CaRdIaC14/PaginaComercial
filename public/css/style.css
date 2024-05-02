@@ -2609,6 +2609,84 @@ textarea {
     text-decoration: none; 
     margin-bottom: 5px;
   }
+
+.contenedor-2{
+    background-color: #1C2A44;
+    height: 6cm;
+    width: 100%;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    padding-top: 2cm;
+}
+
+.titulo-2 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #1C2A44;
+    padding-top: 2cm;
+}
+
+.titulo-ab {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    color: #1C2A44;
+    padding-top: 2cm;
+    margin-left: 2cm;
+}
+
+.descripcion {
+    font-size: 22px;
+    margin-top: 1cm;
+    color: white;
+    text-align: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.descripcion-2 {
+    font-size: 18px;
+    margin-top: 1cm;
+    color: #1C2A44;
+    text-align: justify;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.perfil-egreso{
+    background-color: white;
+    height: 100%;
+    width: auto;
+}
+
+.contenedor-a{
+    display: flex; /* Utiliza flexbox para crear un layout flexible */
+}
+
+.contenedor-b {
+    width: 50%; /* Cada contenedor hijo ocupará el 50% del espacio del contenedor padre */
+    height: auto; /* Altura de los contenedores hijos (a modo de ejemplo) */
+    background-color: white; /* Color de fondo para visualización */
+
+}
+.punto{
+    list-style: disc inside;
+    text-align: justify;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    font-size: 20px;
+    padding: 1cm;
+    color: #1C2A44;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .footer-bottom{background: #364c59}
 .footer-bottom p {
     color: #c7c7c7;
