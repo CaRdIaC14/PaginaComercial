@@ -171,6 +171,17 @@
         </section>
             
         <!-- Background Area End -->
+
+        <div class="event-area one text-center pt-140 pb-50" id="admision">
+            <div class="rowtrans">
+                <div class="rowtrans-title">
+                    <h2>Panel Informativo</h2>
+                </div>
+            </div>
+            <img src="{{asset('img/panelInformativo/panelInformativo.png')}}" alt="" width="1500"> 
+
+        </div>
+
         <!-- carrusel -->
         <div class="rowtrans">
             <div class="rowtrans-title text-center">
@@ -236,7 +247,14 @@
         </div>
         <!-- Notice End -->    
            
-        
+        <div class="event-area one text-center pt-140 pb-50" id="admision">
+            <div class="rowtrans">
+                <div class="rowtrans-title">
+                    <h2>ADMISIÓN 2024</h2>
+                </div>                
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0B_pQajSHaE?si=Dc8qrDnxrTy2hoaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         
         
         <!-- Courses Area Start -->
@@ -244,85 +262,31 @@
             <div class="container" style="margin-top: 3cm">
                 <div class="row" id = "card-row" style="margin-top: -50px; margin-bottom: 30px">
                     <div class="card" id= "card1">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <div class="head">
-                                    <div class="circle"></div>
-                                        <div class="img">
-                                            <img src="{{asset('img/areas/SoftwareEngineering/img1.jpg')}}" alt="course">
-                                        </div>
-                                        <div style="padding-top: 280px; font-weight: bold;">
-                                            <h3 style = "font-weight: bold; color: black; ">Inteligencia de Máquinas</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="description">
-                                        <p>La ciencia de computación ha facilitado la creación de tecnologías con capacidades de procesamiento.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="https://plataformavirtual.uda.cl/calendario-academico-2023/">
+                            <img src="{{asset('img/icons/calendario.png')}}" alt="" width="250">
+                            <h3>Calendatio academicos</h3>
+                        </a>
+                    </div>
                     <!-- fin tarjeta 1-->
 
                     <div class="card" id= "card2">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <div class="head">
-                                    <div class="circle"></div>
-                                        <div class="img">
-                                            <img src="{{asset('img/areas/ArtificialIntelligent/img1.jpg')}}" alt="course">
-                                        </div>
-                                        <div style="padding-top: 280px; font-weight: bold;">
-                                            <h3 style = "font-weight: bold; color: black; ">Ingeniería de Software</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="description">
-                                        <p>La Ingeniería de Software comprende procesos, metodologías, métodos, herramientas, y personas.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a href="http://www.ingeco.uda.cl/images/malla_por_competencias_ingeco.pdf">
+                            <img src="{{asset('img/icons/papel.png')}}" alt="" width="250">
+                            <h3>Malla Curricullar</h3>
+                        </a>
+                    </div>
                     <!-- fin tarjeta 2-->
 
                     <div class="card" id= "card3">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <div class="head">
-                                    <div class="circle"></div>
-                                        <div class="img">
-                                            <img src="{{asset('img/areas/GestionTI/img1.jpg')}}" alt="course">
-                                        </div>
-                                        <div style="padding-top: 280px; font-weight: bold;">
-                                            <h3 style = "font-weight: bold; color: black; ">Gestión TI</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <div class="description">
-                                        <p>La información cada vez más valiosa en las organizaciones requiere de procesos, tecnologías y técnicas adecuadas para su procesamiento.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                        <a href=""> 
+                            <img src="{{asset('img/icons/calendarioReloj.png')}}" alt="" width="250">
+                            <h3>Horario de Clases</h3>
+                        </a>
                     </div>
                     <!-- fin tarjeta 3-->
                 </div>
             </div>
 
-    
-        <div class="contenedor-linea">
-            <div class="linea-horizontal"></div>
-          </div>
-        
-        <div class="contenedor">
-            <div class="imagen-contenedor">
-              <img src="tu-imagen.jpg"/><p style="font-size: 48px">Formulario de Prácticas</p>
-            </div>
 
         <!-- FOOTER -->
         @include("include.footer")
